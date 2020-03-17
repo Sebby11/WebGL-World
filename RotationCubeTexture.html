@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My World - WebGL</title>
+</head>
+ <body onload="main()">
+	<canvas id = "webgl" width="700" height="600">
+		Please use a browser that supports the canvas tool
+	</canvas>
+	<img id = "pstG-img" src = "pastel.png" width="0" height="0"></img>	
+	<img id = "lamp-img" src = "lamp.png" width="0" height="0"></img>	
+	<img id = "diamond-img" src = "diamond.png" width="0" height="0"></img>	
+	<img id = "grass-img" src = "grass.jpg" width="0" height="0"></img>	
+	<img id = "fur-img" src = "fur.png" width="0" height="0"></img>	
+	<h1>Movement</h1>
+	<p>W: Move forward // S: Move Backward // A: Move left // D: Move right</p>	
+	<p>Up Arrow Key: Move up // Down Arrow Key: Move down // Right arrow Key: Look right // Left arrow key: Look left</p>
+	<h3>OR</h3>
+	<p>Use your mouse to look around the world along with WASD for movement</p>	
+	<h1>Other Keys</h1>
+	<input type = "button" id = "visualizeNormals" value = "Visualize Normals">	
+	<input type = "button" id = "lightOnOff" value = "Turn light On/Off">	
+
+	<script src="webgl-utils.js"></script>
+    <script src="webgl-debug.js"></script>
+    <script src="cuon-utils.js"></script>
+    <script src="cuon-matrix.js"></script>
+	<script src="gl-matrix.js"></script>
+	<script src="RotationCubeTexture.js"></script>
+</body>
+</html>
