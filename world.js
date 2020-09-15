@@ -1,4 +1,4 @@
-//NEWNENWENNEWNE
+
 
 var VertexShaderText =
 [
